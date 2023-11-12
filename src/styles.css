@@ -1,0 +1,59 @@
+.nav{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.first-project{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.second-project{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.second-project-display-name{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.tabs-container{
+    display: flex;
+    gap:10px
+
+}
+.tab{
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    gap:30px;
+    width: 400px;
+    height: 200px;
+    border:1px solid black;
+}
+
+.card-submit{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    gap:10px
+
+}
+.card-ticket{
+    color:blue
+}
