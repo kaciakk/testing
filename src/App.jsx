@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import SecondProject from './pages/SecondProject';
 import ThirdProject from './pages/ThirdProject';
 import FourthProject from './pages/FourthProject';
+import FifthProject from './pages/FifthProject';
 function App() {
 
   return ( 
@@ -18,6 +19,7 @@ function App() {
       <Route path="second-project" element={<SecondProject />} />
       <Route path='third-project' element={<ThirdProject />} />
       <Route path='fourth-project' element={<FourthProject />} />
+      <Route path='fifth-project' element={<FifthProject />} />
       </Routes>
   </BrowserRouter>
  
