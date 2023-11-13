@@ -9,6 +9,7 @@ export default function Navbar() {
     <Link to="/second-project">Second Project</Link>
     <Link to="/third-project">Third Project</Link>
     <Link to="/fourth-project">Fourth Project</Link>
+    <Link to="/fifth-project">Fifth Project</Link>
     </nav>
   )
 }
