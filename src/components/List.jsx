@@ -1,10 +1,10 @@
-import { items } from "../dataFifthProject";
 import Item from "./Item";
-export default function List({items}) {
+
+export default function List({items, handleToggle}) {
   return (
     <div className='list flex '>
         {items.map((item) => { 
-            return <div><Item key={item} item={item}/></div>;
+            return <Item key={item} item={item} handleToggle={handleToggle}/>;
             })}
     </div>
   )

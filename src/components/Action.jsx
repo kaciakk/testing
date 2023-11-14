@@ -1,11 +1,11 @@
 
 
-export default function Action() {
+export default function Action({moveRight, moveLeft}) {
   return (
     <div className='actions'>
 
-        <button>&gt;</button>
-        <button>&lt;</button>
+        <button onClick={moveRight}>&gt;</button>
+        <button onClick={moveLeft}>&lt;</button>
 
     </div>
   )
